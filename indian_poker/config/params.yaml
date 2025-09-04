@@ -1,0 +1,6 @@
+poker_orchestrator:
+  ros__parameters:
+    model_path: models/best_poker_agent.pt
+    num_hands: 10          # 10판만
+    norm_enable: false
+    deck_init_count: 4
