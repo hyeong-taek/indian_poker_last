@@ -1,0 +1,11 @@
+# Goal
+float32[] points   # 길이 3*N, 기본은 첫 트리플(x,y,z) 사용
+int32 amount         # 베팅해야하는 칩의 수
+---
+# Result
+bool ok
+string message
+---
+# Feedback
+string stage         # "move" | "pick" | "place"
+float32 progress

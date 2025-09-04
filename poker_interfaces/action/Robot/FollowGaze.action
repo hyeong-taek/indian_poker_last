@@ -1,0 +1,9 @@
+# Goal
+float64 duration_s   # seconds to run gaze following; if <=0 use default (e.g., 10.0)
+---
+# Result
+bool ok
+string message
+---
+# Feedback
+float32 progress     # 0.0 ~ 1.0, time-based
